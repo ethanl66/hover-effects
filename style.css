@@ -141,7 +141,7 @@ body {
 }
 
 .txt:hover {
-  background-image: url("/Project/Img/light-blue-gradient.jpg");
+  background-image: url("/Img/light-blue-gradient.jpg");
   background-position: center;
   color: transparent;
   -webkit-background-clip: text;
