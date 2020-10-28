@@ -1,0 +1,179 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.alps {
+  width: 55vw;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5rem;
+  -webkit-filter: blur(1.5px) grayscale(50%) brightness(95%);
+          filter: blur(1.5px) grayscale(50%) brightness(95%);
+  margin-top: 20rem;
+}
+
+.alps:hover {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  border-radius: 2rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  margin: 20rem;
+  padding: 3rem 5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  background-color: #ff3434;
+  border-radius: 3.5rem;
+  -webkit-box-shadow: 0rem 2rem #ad0000;
+          box-shadow: 0rem 2rem #ad0000;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: red;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.btn:active {
+  -webkit-box-shadow: 0rem 1rem #8d0000;
+          box-shadow: 0rem 1rem #8d0000;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+  -webkit-transform: scale(1.5) translateY(1rem);
+          transform: scale(1.5) translateY(1rem);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.img-panel {
+  margin: 10rem;
+}
+
+.img {
+  min-width: 0;
+  width: 40vw;
+  height: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  outline: 1rem solid #00b0ff;
+  outline-offset: 0.5rem;
+  -webkit-transform: rotate(360deg) scale(1.5);
+          transform: rotate(360deg) scale(1.5);
+  z-index: 2;
+}
+
+.img2:hover {
+  -webkit-transform: rotate(-360deg) scale(1.8);
+          transform: rotate(-360deg) scale(1.8);
+  z-index: 2;
+}
+
+.txt {
+  text-transform: uppercase;
+  margin: 10rem;
+  color: skyblue;
+}
+
+.txt:hover {
+  background-image: url("/Project/Img/light-blue-gradient.jpg");
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 900;
+  -webkit-transform: scale(3) rotate(360deg);
+          transform: scale(3) rotate(360deg);
+  letter-spacing: 0.5rem;
+}
+
+.final {
+  margin: 10rem;
+}
+
+.final h2 {
+  padding: 5rem;
+  margin: 0;
+  background-color: #783114;
+  color: white;
+  font-size: 4rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.final h2:hover {
+  background-color: skyblue;
+  color: black;
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+  border-radius: 40%;
+  -webkit-box-shadow: 0 1rem rgba(51, 51, 51, 0.575), inset 0 0 0 1rem red;
+          box-shadow: 0 1rem rgba(51, 51, 51, 0.575), inset 0 0 0 1rem red;
+}
+/*# sourceMappingURL=style.css.map */

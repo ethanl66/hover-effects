@@ -1,0 +1,33 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import "_variables.scss";
+
+.img-panel {
+  margin: 10rem;
+}
+
+.img {
+  min-width: 0;
+  width: 40vw;
+  height: auto;
+  transition: 0.3s;
+}
+
+.img:hover {
+  transform: scale(1.5);
+  outline: 1rem solid color(dblue);
+  outline-offset: 0.5rem;
+  transform: rotate(360deg) scale(1.5);
+  z-index: 2;
+}
+
+.img2:hover {
+  transform: rotate(-360deg) scale(1.8);
+  z-index: 2;
+}

@@ -1,0 +1,27 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+@import "_variables.scss";
+@import "_blur.scss";
+@import "_btn.scss";
+@import "_panel.scss";
+@import "_text-effect.scss";
+@import "_final.scss";

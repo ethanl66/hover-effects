@@ -1,0 +1,30 @@
+@import "_variables.scss";
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+body {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.alps {
+  width: 55vw;
+  transition: all 0.3s;
+  border-radius: 5rem;
+  filter: blur(1.5px) grayscale(50%) brightness(95%);
+  margin-top: 20rem;
+}
+
+.alps:hover {
+  filter: blur(0);
+  transform: scale(1.5);
+  border-radius: 2rem;
+}

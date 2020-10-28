@@ -1,0 +1,19 @@
+@import "_variables.scss";
+
+.txt {
+  text-transform: uppercase;
+  margin: 10rem;
+  color: skyblue;
+}
+
+.txt:hover {
+  background-image: url("/Project/Img/light-blue-gradient.jpg");
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  transition: 0.5s;
+  font-weight: 900;
+
+  transform: scale(3) rotate(360deg);
+  letter-spacing: 0.5rem;
+}
